@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="some.js"></script>
+    <script type="text/javascript">
+
+        function pressedButton() {
+
+            someFunction("Hello?", function ($something) {
+                // body...
+                console.log($something)
+            })
+        }
+
+    </script>
+  </head>
+  <body>
+    <button onclick="pressedButton()">Do something</button>
+  </body>
+</html>
